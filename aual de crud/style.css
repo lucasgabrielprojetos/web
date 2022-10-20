@@ -37,6 +37,11 @@ input[type="number"] {
     padding: .5rem 2rem;
 }
 
+#tarefas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     background: linear-gradient(270deg, #2E3237 0%, #1A1C1F 100%);
     border: 1px solid #333333;
@@ -50,4 +55,5 @@ input[type="number"] {
     width: 150px;
     height: 180px;
 
+    margin: 1.6rem;
 }

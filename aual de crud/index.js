@@ -19,9 +19,14 @@ botao.addEventListener("click", (e) => {
     meter.min = 0
     meter.max = 100
 
+    let botaoFinalizar = document.createElement("button")
+    botaoFinalizar.classList.add("botao")
+    botaoFinalizar.textContent = "finalizar"
+
     card.appendChild(h2)
     card.appendChild(span)
     card.appendChild(meter)
+    card.appendChild(botaoFinalizar)
 
     document.querySelector("#tarefas").appendChild(card)
 
